@@ -195,6 +195,6 @@ public class PlayerModel
             updateEvent(this);
         }
 
-        //EventCenter.GetInstance().EventTrigger<PlayerModel>("玩家数据", this);
+        EventCenter.GetInstance().EventTrigger<PlayerModel>("玩家数据", this);
     }
 }
